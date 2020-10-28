@@ -1,0 +1,55 @@
+.card-author > img {
+  width: 50px;
+  height: 50px;
+}
+
+.card-author {
+  margin-top: 20px;
+}
+
+.circle-img {
+  border-radius: 50%;
+}
+
+.card-white {
+  background-color: white;
+  width: 300px;
+  padding: 11px;
+}
+
+.card-img {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-picto {
+  text-align: right;
+  padding: 10px;
+}
+
+.card-picto i {
+  font-size: 25px;
+  color: grey;
+}
+
+.card-container .btn {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-white .btn {
+  opacity: 0;
+  transition: .3s;
+
+}
+
+.card-white:hover .btn {
+  opacity: 1;
+}
